@@ -1,0 +1,49 @@
+# ========================
+# AMBIENTE VIRTUAL
+# ========================
+venv/
+.env/
+.venv/
+*.pyc
+__pycache__/
+
+# ========================
+# NOTEBOOKS
+# ========================
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert/
+
+# ========================
+# DADOS
+# ========================
+data/
+*.csv
+*.tsv
+*.json
+*.xls
+*.xlsx
+*.parquet
+*.h5
+
+# ========================
+# MODELOS TREINADOS
+# ========================
+*.pkl
+*.joblib
+*.hdf5
+*.pt
+*.pth
+
+# ========================
+# STREAMLIT
+# ========================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ========================
+# SISTEMA
+# ========================
+.DS_Store
+Thumbs.db
+*.log
